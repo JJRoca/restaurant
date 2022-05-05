@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reservacion.css">
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+    <title>Document</title>
+</head>
+<body>    
+    <div class="logotipo">
+        <a href="index.html"><img src="image/logotipo.jpg" alt=""></a>
+        <!-- <img src="image/logotipo.jpg" alt=""> -->
+    </div>
+    <div class="reservacion">
+        <h1>Encuentra tu mesa</h1>
+        <form action="">   
+            <select name="" id="">
+                <option value="1" label="1 person">1 person</option>
+                <option value="2" label="2 person">2 person</option>
+                <option value="3" label="4 person">3 person</option>
+                <option value="4" label="4 person">4 person</option>
+                <option value="5" label="5 person">5 person</option>
+                <option value="6" label="6 person">6 person</option>
+                <option value="7" label="7 person">7 person</option>
+                <option value="8" label="8 person">8 person</option>
+                <option value="9" label="9 person">9 person</option>
+                <option value="10" label="10 person">10 person</option>
+                <option value="11" label="11 person">11 person</option>
+                <option value="12" label="12 person">12 person</option>
+                <option value="13" label="13 person">13 person</option>
+                <option value="14" label="14 person">14 person</option>
+                <option value="15" label="15 person">15 person</option>
+                <option value="16" label="16 person">16 person</option>
+            </select>
+       
+            <label>Calendario</label>
+            <input type="text" id="calendario" name="" readonly="">
+            <label>Hora</label>
+            <input type="text" placeholder="ingrese la hora">
+            <a href="">Reservar Mesa</a>
+           </form>
+    </div>
+    
+<script type="text/javascript">
+	$(function() {
+		$("#calendario").datepicker();
+	});
+
+</script>
+</body>
+</html>
